@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/362edad5-43d2-4d31-9660-14b39864ac46/AppServices/subscriptions/362edad5-43d2-4d31-9660-14b39864ac46/resourceGroups/ConnectifyIndia-RG01/providers/Microsoft.Web/sites/connectifyindia",
+    "appService.deploySubpath": ".next"
+}
