@@ -32,7 +32,7 @@ const Header = () => {
                         <div className='uppercase text-center'>Connectify India</div>
                     </div>
                     <li><Link href="#"><Image src="/images/logo.jpg" width={32} height={32} className='w-8 h-6 '  alt="main_logo" /></Link></li>
-                    <li className='mr-11'><Link href="https://connectifyindia.azurewebsites.net/">Connectify India</Link></li>
+                    <li className='mr-11'><Link href="https://connectifyglobal.azurewebsites.net/">Connectify India</Link></li>
                     <li><Link href="#">Simply Counsel</Link></li>
                     <li><Link href="#">Legal Aspire</Link></li>
                     <li><Link href="#">AINAW</Link></li>
