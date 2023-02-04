@@ -64,7 +64,7 @@ const Word = () => {
                     </div>
                     <div className='flex justify-center items-center gap-4 flex-wrap'>
                         <div className='flex flex-col justify-center items-center md:w-72 w-full h-72 bg-indigo-400 gap-4'>
-                            <Link href="https://connectifyindia.azurewebsites.net/">
+                            <Link href="https://connectifyglobal.azurewebsites.net/">
                                 <div className="text-8xl text-sky-400"><FaFileWord/></div>
                                 <div className="uppercase text-xl">Word</div>
                             </Link>
