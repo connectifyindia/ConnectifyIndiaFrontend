@@ -9,20 +9,20 @@ const dashboard = ({showDashBoard}) => {
     {
       title: "Templates By APP",
       submenu: [
-        { title: "Word", path: "https://connectifyindia.azurewebsites.net/word"},
-        { title: "Excell", path: "https://connectifyindia.azurewebsites.net/excell"},
-        { title: "PowerPoint", path: "https://connectifyindia.azurewebsites.net/powerpoint"},
-        { title: "Pdf", path: "https://connectifyindia.azurewebsites.net/pdf"},
+        { title: "Word", path: "https://connectifyglobal.azurewebsites.net/word"},
+        { title: "Excell", path: "https://connectifyglobal.azurewebsites.net/excell"},
+        { title: "PowerPoint", path: "https://connectifyglobal.azurewebsites.net/powerpoint"},
+        { title: "Pdf", path: "https://connectifyglobal.azurewebsites.net/pdf"},
       ]
     },
     {
       title: "Browse By Category",
       submenu: [
-        { title: "Carrier Document", path: "https://connectifyindia.azurewebsites.net/carrier-doc"},
-        { title: "Legal Document", path: "https://connectifyindia.azurewebsites.net/legal-doc"},
-        { title: "NGO Document", path: "https://connectifyindia.azurewebsites.net/ngo-doc"},
-        { title: "Project Document", path: "https://connectifyindia.azurewebsites.net/project-doc"},
-        { title: "All Document", path: "https://connectifyindia.azurewebsites.net/all-doc"},
+        { title: "Carrier Document", path: "https://connectifyglobal.azurewebsites.net/carrier-doc"},
+        { title: "Legal Document", path: "https://connectifyglobal.azurewebsites.net/legal-doc"},
+        { title: "NGO Document", path: "https://connectifyglobal.azurewebsites.net/ngo-doc"},
+        { title: "Project Document", path: "https://connectifyglobal.azurewebsites.net/project-doc"},
+        { title: "All Document", path: "https://connectifyglobal.azurewebsites.net/all-doc"},
 
        
       ]
@@ -45,8 +45,8 @@ const dashboard = ({showDashBoard}) => {
       ]
     },
 
-    { title: "Contact", path: "https://connectifyindia.azurewebsites.net/word" },
-    { title: "Technologies", path: "https://connectifyindia.azurewebsites.net/legal-doc" },
+    { title: "Contact", path: "https://connectifyglobal.azurewebsites.net/word" },
+    { title: "Technologies", path: "https://connectifyglobal.azurewebsites.net/legal-doc" },
     { title: "Hardware", path: "https://www.quora.com" },
     { title: "Software", path: "https://www.quora.com" },
     {
