@@ -9,7 +9,7 @@ const SideBar = ({ showSidebar }) => {
     const show = classNames("bg-black text-white md:hidden lg:hidden w-full pl-7 shadow-sm shadow-slate-900 block");
     const hide = classNames("bg-blaqck text-white md:hidden lg:hidden w-full pl-7  shadow-sm shadow-slate-900 hidden");
     const menu_items = [
-        { title: "Connectify India", ref:"https://connectifyindia.azurewebsites.net" },
+        { title: "Connectify India", ref:"https://connectifyglobal.azurewebsites.net" },
         { title: "Simply Counsel" },
         { title: "Legal Aspire" },
         { title: "AINAW" },
