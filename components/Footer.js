@@ -26,14 +26,14 @@ const footer = () => {
                         <div className="flex flex-col gap-3 md:gap-5">
                             <div className=''>Usefull links</div>
                             <nav className='list-none flex flex-col gap-2'>
-                                <li className='hover:underline'><Link href="https://connectifyindia.azurewebsites.net/aboutus">About Us</Link></li>
-                                <li className='hover:underline'><Link href="https://connectifyindia.azurewebsites.net/faq">FAQ</Link></li>
+                                <li className='hover:underline'><Link href="https://connectifyglobal.azurewebsites.net/aboutus">About Us</Link></li>
+                                <li className='hover:underline'><Link href="https://connectifyglobal.azurewebsites.net/faq">FAQ</Link></li>
                                 <li className='hover:underline'>Membership</li>
                                 <li className='hover:underline'>Carreers</li>
                                 <li className='hover:underline'>T&C</li>
                                 <li className='hover:underline'>Privacy Policy</li>
                                 <li className='hover:underline'>Art Magagine</li>
-                                <li className='hover:underline'><Link href="https://connectifyindia.azurewebsites.net/contactus">Contact Us</Link></li>
+                                <li className='hover:underline'><Link href="https://connectifyglobal.azurewebsites.net/contactus">Contact Us</Link></li>
                             </nav>
                         </div>
                         <div className='flex flex-col gap-3 md:gap-5'>
