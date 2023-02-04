@@ -10,19 +10,19 @@ const Blog_Dashboard = ({showDashBoard}) => {
     {
       title: "Browse By Category",
       submenu: [
-        { title: "Carrier Blog", path: "https://connectifyindia.azurewebsites.net/carrier-blog"},
-        { title: "Legal Blog", path: "https://connectifyindia.azurewebsites.net/legal-blog"},
-        { title: "NGO Blog", path: "https://connectifyindia.azurewebsites.net/ngo-blog"},
-        { title: "Project Blog", path: "https://connectifyindia.azurewebsites.net/project-blog"},
-        { title: "All Blog", path: "https://connectifyindia.azurewebsites.net/all-blog"},
+        { title: "Carrier Blog", path: "https://connectifyglobal.azurewebsites.net/carrier-blog"},
+        { title: "Legal Blog", path: "https://connectifyglobal.azurewebsites.net/legal-blog"},
+        { title: "NGO Blog", path: "https://connectifyglobal.azurewebsites.net/ngo-blog"},
+        { title: "Project Blog", path: "https://connectifyglobal.azurewebsites.net/project-blog"},
+        { title: "All Blog", path: "https://connectifyglobal.azurewebsites.net/all-blog"},
 
        
       ]
     },
 
 
-    { title: "Contact", path: "https://connectifyindia.azurewebsites.net/word"},
-    { title: "Technologies", path: "https://connectifyindia.azurewebsites.net/legal-doc"},
+    { title: "Contact", path: "https://connectifyglobal.azurewebsites.net/word"},
+    { title: "Technologies", path: "https://connectifyglobal.azurewebsites.net/legal-doc"},
     { title: "Hardware", path: "https://www.quora.com"},
     { title: "Software", path: "https://www.quora.com"},
   ];
