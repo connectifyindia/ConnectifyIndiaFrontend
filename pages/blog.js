@@ -8,7 +8,7 @@ const Blog = () => {
                 <div className='text-3xl font-bold my-5 text-center'>Read Our Blog</div>
                 <div className='flex justify-evenly flex-wrap items-center'>
                     <div className='flex flex-col justify-center items-center gap-5 mb-6'>
-                        <Link href="https://connectifyindia.azurewebsites.net/carrier-blog">
+                        <Link href="https://https://connectifyglobal.azurewebsites.net/carrier-blog">
                         <div className='md:w-72 h-72 w-full  relative'>
                             <div className='absolute bg-black/50 w-full h-full'></div>
                             <img className='w-full h-full rounded-md' src="images/AINAW.png" alt="ainaw" />
@@ -21,7 +21,7 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5 mb-6'>
-                        <Link href="https://connectifyindia.azurewebsites.net/legal-blog">
+                        <Link href="https://connectifyglobal.azurewebsites.net/legal-blog">
                         <div className='md:w-72 w-full h-72 relative'>
                             <div className='absolute bg-black/50 w-full h-full'></div>
                             <img className='w-full h-full rounded-md' src="images\Business Connect.png" alt="business"/>
@@ -33,7 +33,7 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5 mb-6'>
-                       <Link  href="https://connectifyindia.azurewebsites.net/ngo-blog">
+                       <Link  href="https://connectifyglobal.azurewebsites.net/ngo-blog">
                        <div className='md:w-72 w-full h-72 relative'>
                             <div className='absolute bg-black/50 w-full h-full'></div>
                             <img className='w-full h-full' src="images\Legal Aspire.png" alt="Legal"/>
@@ -44,7 +44,7 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5 mb-6'>
-                        <Link href="https://connectifyindia.azurewebsites.net/project-blog">
+                        <Link href="https://connectifyglobal.azurewebsites.net/project-blog">
                         <div className='md:w-72 w-full h-72 relative'>
                             <div className='absolute bg-black/50 w-full h-full'></div>
                             <img className='w-full h-full' src="images\Simply Counsel.png" alt="simply" />
@@ -55,7 +55,7 @@ const Blog = () => {
                         </div>
                     </div>
                     <div>
-                      <Link href="https://connectifyindia.azurewebsites.net/all-blog" className='text-3xl text-blue-500 hover:underline'>View All</Link>  
+                      <Link href="https://connectifyglobal.azurewebsites.net/all-blog" className='text-3xl text-blue-500 hover:underline'>View All</Link>  
                     </div>
                 </div> 
             </div>
