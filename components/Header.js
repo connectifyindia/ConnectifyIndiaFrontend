@@ -113,9 +113,9 @@ const Header = () => {
                     </li>
                     <li className='z-40 '><Link href="#" className='text-amber-200 font-bold text-2xl'><FaRegUserCircle/></Link>
                         <ul>
-                            <li><Link href="#">Connectify India</Link></li>
+                            <li>Connectify India</li>
 
-                            <li><Link href="https://connectifyindia.azurewebsites.net/signupCounsel/signup_for_diff_user">Simply Counsel</Link></li>
+                            <li><Link href="https://connectifyglobal.azurewebsites.net/signupCounsel/signup_for_diff_user">Simply Counsel</Link></li>
                             <li><Link href="#">Legal Aspire</Link></li> 
                             <li><Link href="#">Ainaw</Link></li>
                             <li><Link href="#">Business Connect</Link></li>
