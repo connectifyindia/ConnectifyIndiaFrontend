@@ -65,7 +65,7 @@ const dashboard = ({showDashBoard}) => {
       <nav className={`${'bg-gray-50 text-black lg:flex  mt-1 md:mt-0 lg:mt-0 px-4  shadow-sm shadow-slate-900'} ${showDashBoard?show:hide}`}>
 
         <div className='w-full px-0 py-1'>
-          <div className='capitalize text-center my-5 text-3xl font-bold'>Templates / Dashboard</div>
+          <div className='capitalize text-center my-5 text-3xl font-bold'>Dashboard</div>
           <hr />
           {menu_items.map((item, index) => {
             return < Dashboard_MenuItem item={item} key={index} depth={1} />

@@ -17,7 +17,7 @@ const Blog = () => {
                         </Link>
                       
                         <div className='text-gray-300'><span className='text-sky-500'>Blog / </span>Carrier Blog</div>
-                        <div className='text-center flex-wrap text-lg font-semiold'>10 signs you need career counselling...
+                        <div className='text-center flex-wrap text-lg font-semiold'>10 signs you need career counselling....
                         </div>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5 mb-6'>

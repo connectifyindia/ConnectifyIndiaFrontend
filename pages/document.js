@@ -43,7 +43,7 @@ const Document = () => {
                    <Link href="https://connectifyglobal.azurewebsites.net/all-doc">
                    <div className='flex flex-col justify-center items-center md:w-60 w-full h-72 bg-indigo-400 gap-4'>
                         <div className="text-8xl text-sky-400"><AiOutlineTrademarkCircle /></div>
-                        <div className="text-lg capitalize px-4">See All Document In All Cattegory</div>
+                        <div className="text-lg capitalize px-4">All Document</div>
                     </div>
                    </Link>
                     {/* <div className='flex flex-col justify-center items-center md:w-72 w-full h-72 bg-gray-200 gap-4'>

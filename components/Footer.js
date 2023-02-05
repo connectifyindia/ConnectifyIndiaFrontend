@@ -57,7 +57,7 @@ const footer = () => {
                                 <li className='hover:underline'>T&C</li>
                                 <li className='hover:underline'>Privacy Policy</li>
                                 <li className='hover:underline'>Art Magagine</li>
-                                <li className='hover:underline'>Contact Us</li>
+                        
                             </nav>
                         </div>
                         <div className='gap-2 tracking-wider  flex-col text-md md:text-xl font-medium text-amber-200 my-auto'>

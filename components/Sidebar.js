@@ -19,7 +19,7 @@ const SideBar = ({ showSidebar }) => {
             submenu: [
                 { title: "State Project" },
                 { title: "Central Project" },
-                { title: "Private & Public Project" },
+                { title: "Private & Public" },
             ]
         },
         {

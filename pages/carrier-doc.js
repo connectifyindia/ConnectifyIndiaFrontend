@@ -71,7 +71,7 @@ const Carrier_Doc = () => {
                         <div className='flex flex-col justify-center items-center md:w-72 w-full h-72 hover:bg-white shadow-md shadow-slate-300 hover:shadow-xl hover:shadow-slate-600 gap-4'>
                             <Link href="https://connectifyindia.azurewebsites.net/">
                                 <div className="text-8xl text-sky-400"><FaFileExcel /></div>
-                                <div className="uppercase text-xl">Word</div>
+                                <div className="uppercase text-xl">Word page</div>
                             </Link>
 
                         </div>

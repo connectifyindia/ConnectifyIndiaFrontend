@@ -42,7 +42,7 @@ const Header = () => {
                         <ul>
                             <li><Link href="#">State Project</Link></li>
                             <li><Link href="#">Central project</Link></li>
-                            <li><Link href="#">Private and public Project</Link></li>
+                            <li><Link href="#">Private and public</Link></li>
 
                         </ul>
                     </li>
@@ -54,7 +54,7 @@ const Header = () => {
                             <li><Link href="#">Donation</Link></li>
                             <li><Link href="#">Campaign</Link></li>
 
-                            <li><Link href="#">Stories/SuccessStory <span><FaAngleRight className='inline'/></span></Link>
+                            <li><Link href="#">Stories/SuccessStory<span><FaAngleRight className='inline'/></span></Link>
                                 <ul>
                                     <li><Link href="#">Portfolios</Link></li>
                                     <li><Link href="#">Testimonials</Link></li>
@@ -64,7 +64,7 @@ const Header = () => {
                         </ul>
                     </li>
                     <li className='z-40 '>
-                        <Link href="#">NGO <span><FaAngleDown className='inline'/></span></Link>
+                        <Link href="#">NGO<span><FaAngleDown className='inline'/></span></Link>
                         <ul>
                             <li><Link href="#">NGO By Location</Link></li>
                             <li><Link href="#">NGO By Category</Link></li>

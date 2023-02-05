@@ -55,7 +55,7 @@ const Powerpoint = () => {
                                   Explore premium templates
                                 </div>
                                 <div className='flex-wrap'>
-                                Bring your ideas to life with more customizable templates and new creative options when you subscribe to Microsoft 365.
+                                Bring your ideas to life with more customizable templates and new creative options when you subscribe to Microsoft 365 subscribe.
                                 </div>
                                 <div className='text-xl hover:underline text-indigo-400 uppercase'>Browse Templates <span><FaChevronRight className='inline'/></span> </div>
                             </div>
