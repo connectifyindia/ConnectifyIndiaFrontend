@@ -20,7 +20,7 @@ const Signup_for_diff_user = () => {
             </div>
             <div className='mt-5 w-full bg-white p-5'>
                 <div className='flex flex-col gap-3'>
-                <h1 className='text-3xl font-bold font-Pacifico'>Sign up for a free account</h1>
+                <h1 className='text-4xl font-bold font-Pacifico'>Sign up for a free account</h1>
                 <p className='text-2xl font-extralight font-Pacifico '>Select below the type of account you want to create</p>
                 <div className=' flex justify-evenly flex-wrap gap-2 mt-5'>
                 <Link className='bg-slate-600 px-4 py-3 rounded-md text-xl font-mono font-bold text-gray-100 ' href="https://connectifyglobal.azurewebsites.net/signupCounsel/signup_for_student">I am a student</Link>

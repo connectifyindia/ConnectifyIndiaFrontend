@@ -8,7 +8,7 @@ const Blog = () => {
                 <div className='text-3xl font-bold my-5 text-center'>Read Our Blog</div>
                 <div className='flex justify-evenly flex-wrap items-center'>
                     <div className='flex flex-col justify-center items-center gap-5 mb-6'>
-                        <Link href="https://https://connectifyglobal.azurewebsites.net/carrier-blog">
+                        <Link href="https://connectifyglobal.azurewebsites.net/carrier-blog">
                         <div className='md:w-72 h-72 w-full  relative'>
                             <div className='absolute bg-black/50 w-full h-full'></div>
                             <img className='w-full h-full rounded-md' src="images/AINAW.png" alt="ainaw" />
