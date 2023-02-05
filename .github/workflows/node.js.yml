@@ -82,10 +82,25 @@ jobs:
           app-name: 'connectifyindia'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1F397F5A17994F11A02AABA320F10B5A }}
-          package: .
+          package: 
+          
+          - name: Delete Old Artifacts
+    uses: actions/github-script@v6
+    id: artifact
+    with:
+      script: |
+        const res = await github.rest.actions.listArtifactsForRepo({
+          owner: context.repo.owner,
+          repo: context.repo.repo,
+        })
+
+        res.data.artifacts
+          .forEach(({ id }) => {
+            github.rest.actions.deleteArtifact({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              artifact_id: id,
+            })
+          }).
     
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-          branch: gh-pages
-          folder: dist # The folder the action should deploy.
+   
