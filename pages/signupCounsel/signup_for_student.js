@@ -13,7 +13,7 @@ const Signup_for_student=() => {
         formData.append('mobile',data.mobile)
         formData.append('password',data.password)
 
-        fetch("http://127.0.0.1:5463/simply-counsel/student-register/",
+        fetch("https://connectifyindiabackend.azurewebsites.net/simply-counsel/student-register/",
         {
             method:'POST',
             body:formData
