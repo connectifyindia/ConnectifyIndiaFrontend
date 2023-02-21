@@ -14,7 +14,7 @@ const Signup_for_professional = () => {
         formData.append('mobile',data.mobile)
         formData.append('password',data.password)
 
-        fetch("https://connectifyindiabackend.azurewebsites.net/simply-counsel/professional",
+        fetch("https://connectifyindiabackend.azurewebsites.net/simply-counsel/professional/",
         {
             method:'POST',
             body:formData
