@@ -13,7 +13,7 @@ const Signup_for_student=() => {
         formData.append('mobile',data.mobile)
         formData.append('password',data.password)
 
-        fetch("https://connectifyindiabackend.azurewebsites.net/simply-counsel/student-register/",
+        fetch("https://connectifyindiasqldbserver.azurewebsites.net/simply-counsel/student-register/",
         {
             method:'POST',
             body:formData

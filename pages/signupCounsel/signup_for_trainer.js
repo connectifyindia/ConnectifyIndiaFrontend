@@ -14,7 +14,7 @@ const Signup_for_trainer = () => {
         formData.append('mobile',data.mobile)
         formData.append('password',data.password)
 
-        fetch("https://connectifyindiabackend.azurewebsites.net/simply-counsel/trainer/",
+        fetch("https://connectifyindiasqldbserver.azurewebsites.net/simply-counsel/trainer/",
         {
             method:'POST',
             body:formData

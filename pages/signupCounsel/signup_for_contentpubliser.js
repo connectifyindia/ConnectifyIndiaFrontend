@@ -13,7 +13,7 @@ const Signup_for_contentpublisher = () => {
         formData.append('mobile',data.mobile)
         formData.append('password',data.password)
 
-        fetch("https://connectifyindiabackend.azurewebsites.net/simply-counsel/content-publisher/",
+        fetch("https://connectifyindiasqldbserver.azurewebsites.net/simply-counsel/content-publisher/",
         {
             method:'POST',
             body:formData

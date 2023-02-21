@@ -13,7 +13,7 @@ const Signup_for_admin = () => {
         formData.append('mobile',data.mobile)
         formData.append('password',data.password)
 
-        fetch("https://connectifyindiabackend.azurewebsites.net/simply-counsel/admin/",
+        fetch("https://connectifyindiasqldbserver.azurewebsites.net/simply-counsel/admin/",
         {
             method:'POST',
             body:formData
