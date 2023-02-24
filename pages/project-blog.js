@@ -29,7 +29,7 @@ const Project_Blog = () => {
                         <div className='md:w-72 h-72 w-full  relative'> 
                             <img className='w-full h-full rounded-md' src="images\legal1.jpg" alt="ainaw"/>
                         </div>
-                        <div className=' text-xl md:w-72  w-full flex-wrap'>Green bonds for issuers and investors</div>
+                        <div className='text-xl md:w-72 w-full flex-wrap'>Green bonds for issuers and investors</div>
                         <div className='text-start flex-wrap text-sm font-semiold text-gray-900'>January 15, 2023
                         </div>
                     </div>

@@ -5,53 +5,53 @@ const Blog = () => {
     return (
         <>
             <div className='bg-white w-[90%]  py-28 mx-auto'>
-                <div className='text-3xl font-bold my-5 text-center'>Read Our Blog</div>
-                <div className='flex justify-evenly flex-wrap items-center'>
-                    <div className='flex flex-col justify-center items-center gap-5 mb-6'>
+                <div className='text-4xl font-bold my-16 text-center'>Read Our Blog</div>
+                <div className='flex justify-evenly flex-wrap'>
+                    <div className='flex flex-col gap-5 mb-6 md:w-72 lg:w-72 w-full'>
                         <Link href="https://connectifyglobal.azurewebsites.net/carrier-blog">
                         <div className='md:w-72 h-72 w-full  relative'>
-                            <div className='absolute bg-black/50 w-full h-full'></div>
-                            <img className='w-full h-full rounded-md' src="images/AINAW.png" alt="ainaw" />
+                            <div className='absolute bg-black/0 w-full h-full'></div>
+                            <img className='w-full h-full rounded-xl object-cover' src="images/girl.jpg" alt="ainaw"/>
                         </div>
 
                         </Link>
                       
-                        <div className='text-gray-300'><span className='text-sky-500'>Blog / </span>Carrier Blog</div>
-                        <div className='text-center flex-wrap text-lg font-semiold'>10 signs you need career counselling....
+                        <div className='text-black text-xl font-bold'><span className='text-sky-500'>Blog / </span>Carrier Blog</div>
+                        <div className='font-semiold text-black text-xl'>Trending audio is a core factor in making videos that capture attention.
                         </div>
                     </div>
-                    <div className='flex flex-col justify-center items-center gap-5 mb-6'>
+                    <div className='flex flex-col  gap-5 mb-6 md:w-72 lg:w-72 w-full'>
                         <Link href="https://connectifyglobal.azurewebsites.net/legal-blog">
                         <div className='md:w-72 w-full h-72 relative'>
-                            <div className='absolute bg-black/50 w-full h-full'></div>
-                            <img className='w-full h-full rounded-md' src="images\Business Connect.png" alt="business"/>
+                            <div className='absolute bg-black/0 w-full h-full'></div>
+                            <img className='w-full h-full rounded-xl object-cover' src="images\Business Connect.png" alt="business"/>
 
                         </div>
                         </Link>
-                        <div className='text-gray-300'><span className='text-sky-500'>Blog / </span>Legal Blog</div>
-                        <div className='text-center flex-wrap text-lg font-semiold'>signs you need career counselling...                            
+                        <div className='text-black text-xl font-bold'><span className='text-sky-500'>Blog / </span>Legal Blog</div>
+                        <div className='font-semiold text-black text-xl'>Now, instead of creating every Reel from scratch, you can use Instagram Reels templates to copy clip timings of another Reel. 
                         </div>
                     </div>
-                    <div className='flex flex-col justify-center items-center gap-5 mb-6'>
+                    <div className='flex flex-col gap-5 mb-6 md:w-72 lg:w-72 w-full'>
                        <Link  href="https://connectifyglobal.azurewebsites.net/ngo-blog">
                        <div className='md:w-72 w-full h-72 relative'>
-                            <div className='absolute bg-black/50 w-full h-full'></div>
-                            <img className='w-full h-full' src="images\Legal Aspire.png" alt="Legal"/>
+                            <div className='absolute bg-black/0 w-full h-full'></div>
+                            <img className='w-full h-full rounded-xl object-cover' src="images\Legal Aspire.png" alt="Legal"/>
                         </div>
                        </Link>
-                        <div className='text-gray-300'><span className='text-sky-500'>Blog / </span>NGO Blog</div>
-                        <div className='text-center flex-wrap text-lg font-semiold'>10 signs you need career counselling...
+                        <div className='text-black text-xl font-bold '><span className='text-sky-500'>Blog / </span>NGO Blog</div>
+                        <div className='font-semiold text-black text-xl'>Aesthetics are everything on Instagram and Reels are no exception.  
                         </div>
                     </div>
-                    <div className='flex flex-col justify-center items-center gap-5 mb-6'>
+                    <div className='flex flex-col gap-5 mb-6 md:w-72 lg:w-72 w-full'>
                         <Link href="https://connectifyglobal.azurewebsites.net/project-blog">
                         <div className='md:w-72 w-full h-72 relative'>
-                            <div className='absolute bg-black/50 w-full h-full'></div>
-                            <img className='w-full h-full' src="images\Simply Counsel.png" alt="simply" />
+                            <div className='absolute bg-black/0 w-full h-full'></div>
+                            <img className='w-full h-full rounded-xl object-cover' src="images\Simply Counsel.png" alt="simply" />
                         </div>
                         </Link>
-                        <div className='text-gray-300'><span className='text-sky-500'>Blog/</span>Project Blog</div>
-                        <div className='text-center flex-wrap text-lg font-semiold'>10 signs you need career counselling...
+                        <div className='text-black text-xl font-bold'><span className='text-sky-500'>Blog / </span>Project Blog</div>
+                        <div className='font-semiold text-black text-xl'>Trending audio is a core factor in making videos that capture attention.
                         </div>
                     </div>
                     <div>

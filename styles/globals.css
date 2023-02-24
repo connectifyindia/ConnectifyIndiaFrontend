@@ -55,13 +55,14 @@ ul li {
 li ul { display: none; }
 ul li a {
   display: block;
-  padding: 1em;
+  padding: 1rem;
   text-decoration: none;
   white-space: nowrap;
   /* color: #fff; */
   color: rgba(45, 17, 17, 0.845);
 
 }
+ 
 /* ul li a:hover { background: #2c3e50; } */
 
 ul li a:hover { background: rgb(248, 247, 247); }

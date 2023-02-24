@@ -24,7 +24,7 @@ const Carrier_Blog = () => {
                 <Blog_Dashboard  showDashBoard={showDashBoard}/>
                 </div>
                 <div className='md:col-span-4 lg:col-span-3 col-span-4 mt-2'>
-                <div className='flex justify-center items-center gap-4 flex-wrap'>
+                <div className='flex justify-center gap-4 flex-wrap'>
                 <div className='flex flex-col justify-start gap-5 mb-6 hover:text-sky-500'>
                         <div className='md:w-72 h-72 w-full  relative'> 
                             <img className='w-full h-full rounded-md' src="images\legal1.jpg" alt="ainaw"/>
