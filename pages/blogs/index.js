@@ -47,7 +47,7 @@ const All_Blog = ({ data }) => {
                                     items?.map((e) => (
                                         <>
                                             <div className='flex flex-col justify-start gap-5 mb-6 hover:text-sky-500'>
-                                                <Link href={"http://localhost:3000/blogs/"+e.id}>
+                                                <Link href={"connectifyglobal.azurewebsites.net/blogs/"+e.id}>
                                                     <div className='md:w-72 h-72 w-full  relative'>
                                                         <img className='w-full h-full rounded-md' src={e.image_url} />
                                                     </div>
@@ -98,7 +98,7 @@ const All_Blog = ({ data }) => {
 
 export default All_Blog
 export const getServerSideProps = async () => {
-    const res = await fetch('http://127.0.0.1:5463/bloglist/')
+    const res = await fetch('connectifyindiasqldbserver.azurewebsites.net/bloglist/')
     const data = await res.json()
     return {
         props: {

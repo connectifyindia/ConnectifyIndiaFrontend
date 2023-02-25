@@ -23,7 +23,7 @@ const Header = () =>{
 
 
                 <ul className="main-navigation">
-                    <div className='px-2 py-2 flex gap-10 text-3xl  lg:hidden'>
+                    <div className='px-2 py-2 flex gap-10 text-3xl lg:hidden'>
                         <Link className='text-amber-200 font-bold' href="#">
                             {
                                 showSidebar ? <FaTimes onClick={showSidebarIcon} /> : <FaBars onClick={showSidebarIcon}/>
@@ -39,7 +39,7 @@ const Header = () =>{
                     <li className='nav'><Link href="#">Business Connect</Link></li>
                     <li className='z-40 nav'>
                         <Link className='' href="#">Project <span><FaAngleDown className='inline'/></span></Link>
-                        <ul className='shadow-2xl shadow-slate-100'>
+                        <ul className='shadow-xl shadow-slate-800'>
                             <li><Link href="#">State Project</Link></li>
                             <li><Link href="#">Central project</Link></li>
                             <li><Link href="#">Private and public</Link></li>
@@ -49,13 +49,13 @@ const Header = () =>{
 
                     <li className='z-40 nav'>
                         <Link href="#">Fundraiser <span><FaAngleDown className='inline'/></span></Link>
-                        <ul className='shadow-2xl shadow-slate-100'>
+                        <ul className='shadow-xl shadow-slate-800'>
                             <li><Link href="#">Fundraiser</Link></li>
                             <li><Link href="#">Donation</Link></li>
                             <li><Link href="#">Campaign</Link></li>
 
                             <li><Link href="#">Stories/SuccessStory<span><FaAngleRight className='inline'/></span></Link>
-                                <ul className='shadow-2xl shadow-slate-100'>
+                                <ul className='shadow-xl shadow-slate-800'>
                                     <li><Link href="#">Portfolios</Link></li>
                                     <li><Link href="#">Testimonials</Link></li>
                                 </ul>
@@ -65,22 +65,22 @@ const Header = () =>{
                     </li>
                     <li className='z-40 nav '>
                         <Link href="#">NGO<span><FaAngleDown className='inline'/></span></Link>
-                        <ul className='shadow-2xl shadow-slate-100'>
+                        <ul className='shadow-xl shadow-slate-800'>
                             <li><Link href="#">NGO By Location</Link></li>
                             <li><Link href="#">NGO By Category</Link></li>
                             <li><Link href="#">Global NGO</Link></li>
                             <li className='z-40'><Link href="#">Volunteer <span><FaAngleRight className='inline'/></span></Link>
-                                <ul className='shadow-2xl shadow-slate-100'>
+                                <ul className='shadow-xl shadow-slate-800'>
                                     <li><Link href="#">Volunteer Signup</Link></li>
                                     <li><Link href="#">Organisation Signup <span><FaAngleRight className='inline'/></span></Link>
-                                        <ul className='shadow-2xl shadow-slate-100'>
+                                        <ul className='shadow-xl shadow-slate-800'>
                                             <li><Link href="#">Resets</Link></li>
                                             <li><Link href="#">Grids</Link></li>
                                             <li><Link href="#">Frameworks</Link></li>
                                         </ul>
                                     </li>
                                     <li><Link href="#">Blood <span><FaAngleRight className='inline'/></span></Link>
-                                        <ul className='shadow-2xl shadow-slate-100'>
+                                        <ul className='shadow-xl shadow-slate-800'>
                                             <li><Link href="#">state</Link></li>
                                             <li><Link href="#">Location</Link></li>
                                         </ul>
@@ -91,7 +91,7 @@ const Header = () =>{
                     </li>
                     <li className='z-40 nav'>
                         <Link href="#">About <span><FaAngleDown className='inline'/></span></Link>
-                        <ul className='shadow-2xl shadow-slate-100'>
+                        <ul className='shadow-xl shadow-slate-800'>
 
 
                             <li><Link href="#">History</Link></li>
@@ -103,7 +103,7 @@ const Header = () =>{
 
 
                             <li><Link href="#">Custom Post Types <span><FaAngleRight className='inline'/></span></Link>
-                                <ul className='shadow-2xl shadow-slate-100'>
+                                <ul className='shadow-xl shadow-slate-200'>
                                     <li><Link href="#">Portfolios</Link></li>
                                     <li><Link href="#">Testimonials</Link></li>
                                 </ul>
@@ -112,7 +112,7 @@ const Header = () =>{
                         </ul>
                     </li>
                     <li className='z-40 nav '><Link href="#" className='text-amber-200 font-bold text-2xl'><FaRegUserCircle/></Link>
-                        <ul className='shadow-2xl shadow-slate-100'>
+                        <ul className='shadow-xl shadow-slate-800'>
                             <li><Link href="#">Connectify India</Link></li>
 
                             <li><Link href="https://connectifyglobal.azurewebsites.net/signupCounsel/signup_for_diff_user">Simply Counsel</Link></li>
