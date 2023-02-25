@@ -68,8 +68,8 @@ ul li a {
 ul li a:hover { background: rgb(248, 247, 247); }
 
 li:hover > ul {
-  display: block;
-  position: absolute;
+  display:block;
+  position:absolute;
 }
 li:hover li { float: none; }
 /* li:hover a { background: #1bc2a2; } */

@@ -1,10 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react'
 import Link from 'next/link';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Blog_Dashboard from '../components/Blog-Dashboard';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import Blog_Dashboard from '../../components/Blog-Dashboard';
 import classNames from 'classnames';
-import GoToTop from '../components/GoToTop';
+import GoToTop from '../../components/GoToTop';
 // import axios, { AxiosError, AxiosInstance, AxiosRequestConfig } from "axios";
 const All_Blog = ({ data }) => {
     console.log(data)
@@ -47,7 +47,7 @@ const All_Blog = ({ data }) => {
                                     items?.map((e) => (
                                         <>
                                             <div className='flex flex-col justify-start gap-5 mb-6 hover:text-sky-500'>
-                                                <Link href={`${"https://connectifyglobal.azurewebsites.net/blog-details"}`}>
+                                                <Link href={"http://localhost:3000/blogs/"+e.id}>
                                                     <div className='md:w-72 h-72 w-full  relative'>
                                                         <img className='w-full h-full rounded-md' src={e.image_url} />
                                                     </div>
@@ -66,29 +66,22 @@ const All_Blog = ({ data }) => {
 
                                                 </div>
                                             </div> */}
-                                            
+
                                         </>
 
                                     ))
                                 }
                             </div>
                             {
-                                                next != null && (
-                                                    <div className='text-center py-10 text-2xl'>
+                                next != null && (
+                                    <div className='text-center py-10 text-2xl'>
 
-                                                        <button onClick={showMoreItems} className='text-white bg-black px-4 py-2 rounded-md'>Load More</button>
+                                        <button onClick={showMoreItems} className='text-white bg-black px-4 py-2 rounded-md'>Load More</button>
 
-                                                    </div>
-                                                )
-                                            }
-
-
-
+                                    </div>
+                                )
+                            }
                         </div>
-
-
-
-
                     </>
 
                 ) : (
@@ -97,12 +90,9 @@ const All_Blog = ({ data }) => {
 
                 }
             </div>
-
             < GoToTop />
-
             <Footer />
-
-        </>
+            </>
     )
 }
 
@@ -113,10 +103,6 @@ export const getServerSideProps = async () => {
     return {
         props: {
             data: data
-
-
-
         }
-
     }
 }

@@ -1,27 +1,28 @@
-import React from 'react'
-import TableContent from '../components/Table_Content'
+import React, { useState } from 'react'
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import TableContent from '../../components/Table_Content'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaPinterestP } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
 import { FaCommentAlt } from "react-icons/fa";
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+const Blog_Details = ({ data }) => {
 
-const Blog_Details = () => {
-  return (
-    <>
-    <Header/>
-      {items?.length>0?(
+    const [items,setItems] = useState([data])
+    return (
+        <>
+            <Header/>
+            {items?.length>0?(
         <>
          {items?.map((e)=>(
           <>
-          <div className='w-[70%] mx-auto'>
+          <div className='w-[70%] mx-auto font-medium text-xl'>
 
-<div className='text-4xl font-bold py-3'>{e.title}</div>
+<div className='text-4xl font-bold py-3 capitalize '>{e.title}</div>
 <div className='flex justify-start gap-4 py-3'>
-  <div>{e.date}</div>
+  <div className='capitalize'>created by {new Date(e.date).toLocaleString()}</div>
   <div><FaEye className='inline' />1167</div>
   <div><FaCommentAlt className='inline' />0</div>
 </div>
@@ -233,11 +234,22 @@ const Blog_Details = () => {
       ):(
         <p>data not found</p>
       )}
-      
+        <Footer/>
 
-      <Footer/>
-    </>
-  )
+        </>
+    )
 }
 
-export default Blog_Details
+export default Blog_Details;
+
+export const getServerSideProps = async ({ req, params }) => {
+    const res = await fetch('http://127.0.0.1:5463/blogdetail/' + params.id)
+    const data = await res.json()
+    return {
+        props: {
+            data: data,
+            id: params.id
+        }
+    }
+
+}
